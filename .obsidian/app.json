@@ -1,0 +1,17 @@
+{
+  "attachmentFolderPath": "_attachments",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "userIgnoreFilters": [
+    "my-app",
+    "quartz",
+    ".agents"
+  ]
+}

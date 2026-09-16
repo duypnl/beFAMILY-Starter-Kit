@@ -1,0 +1,23 @@
+/* highlight-target.css */
+/* Tô màu nổi bật và thêm viền trái cho câu Kinh Thánh/Heading khi click nhảy đến */
+
+/* Áp dụng cho chế độ Reading View */
+.markdown-preview-view :target,
+.markdown-rendered :target,
+h1:target, h2:target, h3:target, h4:target, h5:target, h6:target,
+div:target, p:target, li:target {
+    background-color: rgba(255, 224, 130, 0.4) !important; /* Màu vàng cam nhạt */
+    border-left: 4px solid var(--interactive-accent, #e91e63) !important; /* Viền trái theo màu Accent của theme */
+    padding-left: 10px !important;
+    border-radius: 4px;
+    transition: background-color 0.5s ease;
+}
+
+/* Kéo dài thời gian hiệu ứng nháy sáng (Flash) mặc định của Obsidian trong Live Preview */
+.is-flashing {
+    background-color: rgba(255, 224, 130, 0.4) !important;
+    border-left: 4px solid var(--interactive-accent, #e91e63) !important;
+    padding-left: 10px !important;
+    border-radius: 4px;
+    transition: background-color 2s ease !important;
+}

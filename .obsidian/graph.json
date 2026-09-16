@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"10 FAITH\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 3037439
+      }
+    },
+    {
+      "query": " path:\"30 WORK\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "path:\"01 - Daily Log\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
+      }
+    },
+    {
+      "query": "path:\"40 KNOWLEDGE\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16126947
+      }
+    },
+    {
+      "query": "path:\"90 SYSTEM\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16514816
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.03999875559617159,
+  "close": false
+}
