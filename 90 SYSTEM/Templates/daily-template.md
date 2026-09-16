@@ -1,4 +1,4 @@
----
+﻿---
 type: note
 domain: life
 subtype: daily
@@ -52,7 +52,6 @@ tags:
 
 <!-- Dành cho sau mỗi lần Chủ Nhật (CN) & định hướng tuần mới / Đối chiếu 13 Điều Giáo huấn của Mẹ -->
 - **Trọng tâm Lời Mẹ dạy / Giáo huấn nhận lãnh:**
-- **Tự soi rọi & Ăn năn ([[10 FAITH/beHoly/80 PROFILE/01 Đối chiếu 13 Điều Giáo huấn của Mẹ|13 Điều Giáo Huấn của Mẹ]]):**
 - **Quyết tâm thực hành & Hành động chuyển hóa:**
   - [ ] 
 
@@ -90,3 +89,4 @@ tags:
 
 **Việc đầu tiên tôi sẽ làm:**
 -
+

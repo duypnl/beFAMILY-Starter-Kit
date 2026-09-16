@@ -1,4 +1,4 @@
----
+﻿---
 name: vitality-health-tracker
 description: Tối ưu hóa năng lượng sinh học, nhịp sinh học giấc ngủ, dinh dưỡng khoa học và giáo án rèn luyện thể lực bền bỉ cho lãnh đạo theo gương Ca-lép (Caleb Vitality Protocol).
 ---
@@ -6,7 +6,7 @@ description: Tối ưu hóa năng lượng sinh học, nhịp sinh học giấc 
 # Kỹ Năng: Quản Trị Sức Khỏe & Năng Lượng Đỉnh Cao (Caleb Vitality Protocol)
 
 > **Nhân vật đại diện:** `Caleb` (`beFIT`)  
-> **Nguyên tắc cốt lõi:** *"Ngày nay tôi được tám mươi lăm tuổi... sức tôi ngày nay cũng như sức tôi ngày trước"* (Giô-suê 14:10-11). Thân thể là đền thờ của Đức Chúa Trời, sức khỏe dồi dào là bệ phóng cho sứ mệnh lớn.
+> **Nguyên tắc cốt lõi:** *"Ngày nay tôi được tám mươi lăm tuổi... sức tôi ngày nay cũng như sức tôi ngày trước"* (Giô-suê 14:10-11). Thân thể là đền thờ của Nguyên tắc sống và giá trị cốt lõi, sức khỏe dồi dào là bệ phóng cho sứ mệnh lớn.
 
 ---
 
@@ -57,3 +57,4 @@ Lưu kết quả vào thư mục `20 LIFE/Health/YYYY-Wxx_Health_Report.md` gồ
 1. Đánh giá mức độ phục hồi thể lực (Thang điểm 1-10).
 2. Các điểm thắt nút gây tiêu hao năng lượng cần khắc phục.
 3. Giáo án rèn luyện và thực đơn đề xuất cho tuần tiếp theo.
+

@@ -1,4 +1,4 @@
----
+﻿---
 type: knowledge
 domain: system
 status: canonical
@@ -107,7 +107,7 @@ sources:
 ### `basis`
 
 ```text
-scripture-watv       — Kinh Thánh được giải nghĩa theo WATV
+document-Standard Source       — Tài liệu được giải nghĩa theo Standard Source
 scientific           — nghiên cứu khoa học
 legal                — văn bản và căn cứ pháp lý
 practice             — dữ liệu hoặc kết quả thực tiễn
@@ -188,7 +188,7 @@ audience:
 type: source
 domain: faith
 status: draft
-basis: scripture-watv
+basis: document-Standard Source
 verification: raw
 sources: []
 ---
@@ -302,3 +302,5 @@ Project/Decision/Output  → dùng phần mở rộng theo loại
 ```
 
 Không chuẩn hóa hàng loạt note cũ. Chỉ chuẩn hóa khi note được mở lại, sử dụng, chia sẻ hoặc nâng thành bản chuẩn.
+
+

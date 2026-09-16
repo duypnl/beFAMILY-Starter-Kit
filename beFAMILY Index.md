@@ -9,7 +9,6 @@
 - ⚙️ [[90 SYSTEM/00 System Index|Cấu hình hệ thống & Biểu mẫu]]
 
 ## 🏛️ Không Gian Tri Thức
-- 🕊️ [[10 FAITH/README|10 FAITH]] - Tâm linh & Giá trị cốt lõi
 - 🌿 [[20 LIFE/README|20 LIFE]] - Cá nhân, Sức khỏe & Gia đình
 - 💼 [[30 WORK/README|30 WORK]] - Doanh nghiệp, Vận hành & Dự án
 - 📚 [[40 KNOWLEDGE/README|40 KNOWLEDGE]] - Tri thức trường tồn & Frameworks

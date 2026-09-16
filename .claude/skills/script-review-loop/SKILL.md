@@ -1,4 +1,4 @@
----
+﻿---
 name: Vòng lặp duyệt kịch bản
 description: "Quy trình viết bản nháp, dispatch subagent đánh giá độc lập, đối chiếu kết quả và vá skill từ phản hồi."
 name_en: "Script Review Loop"
@@ -27,14 +27,14 @@ tách biệt người viết (main agent) và người đánh giá (subagent đ�
   thủ công**, bắt được cả 2 loại sai trên.
 - Feedback từ subagent → vá trực tiếp vào skill → skill ngày càng chuẩn.
 
-Đã chứng minh thực tế 2026-08-05 với `bible-script-standard`: subagent phát
+Đã chứng minh thực tế 2026-08-05 với `Reference-script-standard`: subagent phát
 hiện `gươm lửa` không bị checker bắt + false positive `"Format"`, cả 2 đều
 được vá vào skill sau review.
 
 ## 🔁 QUY TRÌNH 6 BƯỚC
 
-1. **Viết nháp** bằng skill chuyên biệt (vd: `bible-script-standard` cho
-   kịch bản Kinh Thánh). Cố ý để bài ở mức "gần chuẩn" (có thể còn 1-2 lỗi).
+1. **Viết nháp** bằng skill chuyên biệt (vd: `Reference-script-standard` cho
+   kịch bản Tài liệu chuẩn mực). Cố ý để bài ở mức "gần chuẩn" (có thể còn 1-2 lỗi).
 2. **Chạy verify chính chủ** (main agent) để có baseline đối chiếu.
 3. **Dispatch subagent** (role=leaf) với prompt yêu cầu:
    - Load skill liên quan, đọc quy tắc chuẩn.
@@ -89,5 +89,7 @@ QUAN TRỌNG: chạy script thật, KHÔNG bịa output. Trả báo cáo markdow
 
 - Có thể chạy nhiều subagent song song review các góc độ khác nhau (1 subagent
   check thuật ngữ, 1 check giọng văn, 1 check factual).
-- Áp dụng cho mọi skill có checker: `bible-script-standard`, `srt_qa.py`
+- Áp dụng cho mọi skill có checker: `Reference-script-standard`, `srt_qa.py`
   (dub pipeline), `no-ai-slop`, `kp-warm-editor`...
+
+

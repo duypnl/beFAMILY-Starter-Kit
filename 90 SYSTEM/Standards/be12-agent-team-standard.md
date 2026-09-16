@@ -1,4 +1,4 @@
----
+﻿---
 type: standard
 domain: system
 status: active
@@ -12,11 +12,11 @@ sources:
 # Chuẩn Kiến Trúc Đội Ngũ 12 Agent beFAMILY OS
 
 ## 1. TỔNG QUAN KIẾN TRÚC
-Hệ thống **12 Agent beFAMILY OS** là mô hình đa tác tử chuyên môn hóa sâu, được kết nối xuyên suốt bởi **beHOLY** (Trục Tâm linh & La bàn Đạo đức) và điều phối thực thi bởi **beONE** (Hạt nhân Vận hành).
+Hệ thống **12 Agent beFAMILY OS** là mô hình đa tác tử chuyên môn hóa sâu, được kết nối xuyên suốt bởi **beMIND (Tâm thế & Động lực lãnh đạo)
 
 ```text
                            ┌───────────────────────────┐
-                           │          beHOLY           │
+                           │          beMIND (Tâm thế & Động lực lãnh đạo)
                            │  (Trục Tâm Linh Bất Biến) │
                            └─────────────┬─────────────┘
                                          │
@@ -43,7 +43,7 @@ Hệ thống **12 Agent beFAMILY OS** là mô hình đa tác tử chuyên môn h
 ## 2. DANH MỤC 12 AGENT CHUYÊN TRÁCH (1-2 ÂM TIẾT)
 
 ### A. Trục Tâm Linh & Cốt Lõi
-* **`beHOLY`**: Trợ lý Lời Chúa, tra cứu Kinh Thánh 1925 & tài liệu WATV, giữ sự thánh khiết và trọn vẹn trong mọi quyết định.
+* **`beMIND (Tâm thế & Động lực lãnh đạo)
   - **Mô hình khuyến nghị:** **Claude 3.7 Sonnet (Thinking)** / **Gemini 2.5 Pro**
   - **Lý do & Thế mạnh:** Zero-hallucination, tư duy suy luận logic chuẩn xác tuyệt đối, trung thành 100% văn bản nguồn bất biến.
 * **`beONE`**: Hạt nhân tiếp nhận yêu cầu, phân tích bài toán, phân rã công việc và điều phối các Agent con thực thi.
@@ -183,7 +183,7 @@ Mọi câu trả lời tư vấn chuyên sâu, phân tích chiến lược hoặ
 ```markdown
 > 🧩 **beFAMILY Engine Trace:**
 > - **Chỉ huy điều phối (Orchestrator):** beONE (`Gemini 3.7 Flash` / `Claude 3.7 Sonnet`)
-> - **Trợ lý chuyên trách (Specialist):** Joseph (`beFIN`) / Noah (`beTECH`) / beHOLY...
+> - **Trợ lý chuyên trách (Specialist):** Joseph (`beFIN`) / Noah (`beTECH`) / beMIND (Tâm thế & Động lực lãnh đạo)
 > - **Bộ não thực thi (Execution Engine):** DeepSeek-R1 (`deepseek-reasoner`) / DeepSeek-V3 / Claude...
 ```
 
@@ -211,3 +211,4 @@ Mọi câu trả lời tư vấn chuyên sâu, phân tích chiến lược hoặ
 | Hiram (Nguồn vốn) | Joseph | Daniel |
 
 Chi tiết đầy đủ: [[90 SYSTEM/Standards/bework-governance-charter]]
+

@@ -1,4 +1,4 @@
----
+﻿---
 name: org-hierarchy-jethro
 description: Thiết lập khung định biên nhân sự, cấu trúc quản trị phân tầng theo chuẩn Giê-trô (nhóm 10, 50, 100, 1000) và hệ thống OKR/KPI không chồng chéo cho doanh nghiệp chuẩn bị scale-up và IPO (Jethro Org Structure).
 ---
@@ -68,3 +68,4 @@ Vẽ sơ đồ phân tầng rõ ràng từ Board -> C-Level -> Manager -> Team L
 Lưu vào thư mục `30 WORK/<DỰ_ÁN>/02_AREAS/02.4_TamGiac2_Con_Nguoi_Nang_Luc/`:
 * `Org_Chart_Mermaid.md` (Sơ đồ tổ chức).
 * `Job_Description_Matrix.md` (Ma trận mô tả công việc và thẩm quyền 5 cấp).
+

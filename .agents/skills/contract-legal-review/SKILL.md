@@ -1,4 +1,4 @@
----
+﻿---
 name: contract-legal-review
 description: Tự động rà soát hợp đồng thương mại B2B, thỏa thuận bảo mật NDA, điều khoản sở hữu trí tuệ, giới hạn trách nhiệm và rủi ro tuân thủ ESG theo chuẩn Đa-ni-ên (Daniel Legal Audit).
 ---
@@ -59,3 +59,4 @@ Phân loại các điều khoản theo 3 cấp độ:
 Soạn văn bản ghi nhớ ngắn gọn gồm:
 1. Bảng tóm tắt các điều khoản rủi ro và phương án sửa đổi (Redline text).
 2. Đề xuất phương án đàm phán với đối tác để bảo vệ quyền lợi tối đa cho anh Duy.
+

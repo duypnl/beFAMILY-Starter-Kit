@@ -1,4 +1,4 @@
-{
+﻿{
   "types": {
     "aliases": "aliases",
     "cssclasses": "multitext",
@@ -14,8 +14,8 @@
     "content_level": "text",
     "content_status": "text",
     "series": "text",
-    "scripture_ref": "text",
-    "scripture_refs": "multitext",
+    "Document_ref": "text",
+    "Document_refs": "multitext",
     "source_collection": "text",
     "book": "text",
     "chapter": "text",

@@ -1,4 +1,4 @@
----
+﻿---
 name: Ingest Source
 description: Tiêu hoá một source thô vào Second Brain, chưng cất thành tri thức wiki tích luỹ.
 description_en: "Digest one raw source into the Second Brain and distil it into wiki knowledge that compounds."
@@ -27,7 +27,7 @@ Skill làm theo đúng 3 kỷ luật của vault.
 1. Đọc source (kèm ảnh nếu có).
 2. Tóm tắt 3-5 ý chính; rút insight/framework; liên hệ khái niệm đã có.
 3. Xác định thư mục lưu trữ đích thích hợp trong beFAMILY:
-   - `10 FAITH`: Tâm linh, Kinh Thánh, bài học WATV.
+   - `20 LIFE`: Tâm linh, Tài liệu chuẩn mực, bài học Standard Source.
    - `20 LIFE`: Đời sống cá nhân, gia đình, sức khỏe, thói quen.
    - `30 WORK`: Vận hành dự án, công việc kinh doanh (vòng đời ngắn/trung hạn).
    - `40 KNOWLEDGE`: Nguyên lý, công thức, bài học trường tồn (evergreen notes).
@@ -46,3 +46,5 @@ Skill làm theo đúng 3 kỷ luật của vault.
 6. Set source `status: processed`, `processed_at`, `wiki_links: [...]`.
 7. Append nhật ký vào `wiki/log.md`: `## [YYYY-MM-DD] ingest | <tên source>` + đường dẫn file gốc đã lưu + insight.
 8. Đề xuất task nếu source mở ra hành động (chỉ đề xuất). Báo cáo ngắn: tóm tắt + đường dẫn file đã tạo + insight.
+
+

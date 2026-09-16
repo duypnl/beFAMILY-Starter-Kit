@@ -1,4 +1,4 @@
----
+﻿---
 type: knowledge
 domain: system
 status: canonical
@@ -17,8 +17,8 @@ Hệ thống Tag **beTAG 2026** được thiết kế để giải quyết bài 
 
 > **Quy tắc phân định 4 lớp Metadata:**
 > - **Thư mục (Folders):** Ranh giới vật lý và phân quyền dữ liệu (`10 FAITH`, `20 LIFE`, `30 WORK`, `40 KNOWLEDGE`, `50 OUTPUTS`, `90 SYSTEM`, `sources`).
-> - **Loại tệp (`type`):** Bản chất tệp (`wiki`, `source`, `scripture`, `project`, `note`, `decision`, `output`, `template`).
-> - **Liên kết mạng lưới (`[[...]]`):** Liên kết thực thể cụ thể (con người, đối tác, trích dẫn Kinh Thánh, tài liệu nguồn).
+> - **Loại tệp (`type`):** Bản chất tệp (`wiki`, `source`, `Document`, `project`, `note`, `decision`, `output`, `template`).
+> - **Liên kết mạng lưới (`[[...]]`):** Liên kết thực thể cụ thể (con người, đối tác, trích dẫn Tài liệu chuẩn, tài liệu nguồn).
 > - **Thẻ phân loại (`tags`):** Cây chủ đề phân cấp `#[domain]/[subdomain]/[topic]` và nhãn trạng thái xuyên suốt.
 
 ---
@@ -44,28 +44,28 @@ Hệ thống Tag **beTAG 2026** được thiết kế để giải quyết bài 
 ## 3. Bản Đồ Phân Cấp Tag Toàn Diện (beTAG Taxonomy Map)
 
 ### 3.1. Phân hệ Tâm Linh (`#faith/...`)
-Dành riêng cho đức tin, Kinh Thánh 1925 và Hội Thánh của Đức Chúa Trời (WATV):
-- `#faith/scripture` (Kinh Thánh 1925)
-  - `#faith/scripture/chapter` (Từng chương trong 66 sách Kinh Thánh)
-  - `#faith/scripture/book` (Tổng quan 66 sách Kinh Thánh)
-  - `#faith/scripture/old-testament` (Cựu Ước)
-  - `#faith/scripture/new-testament` (Tân Ước)
-- `#faith/watv` (Tài liệu, giáo lý chính thức từ Tổng Hội WATV)
-  - `#faith/watv/slt` (Sách Lời Trực Tiếp từ Đấng An Xang Hồng)
-  - `#faith/watv/sgd` (Sách Giảng Đạo)
-  - `#faith/watv/talang` (Bài giảng & Tài liệu Talang)
-  - `#faith/watv/god-the-father` (Đức Chúa Trời Cha An Xang Hồng)
-  - `#faith/watv/god-the-mother` (Đức Chúa Trời Mẹ Jerusalem)
-  - `#faith/watv/ahnsahnghong` (Đấng Christ Tái Lâm An Xang Hồng)
-  - `#faith/watv/church` (Hội Thánh của Đức Chúa Trời)
-  - `#faith/watv/global-churches` (Hội Thánh toàn cầu)
-  - `#faith/watv/new-covenant` (Tin Lành Giao Ước Mới)
-  - `#faith/watv/terms` (Thuật ngữ Kinh Thánh theo WATV)
-  - `#faith/watv/figures` (Nhân vật Kinh Thánh)
-  - `#faith/watv/places` (Địa danh Kinh Thánh)
-  - `#faith/watv/issues` (Vấn đề & lẽ thật Kinh Thánh)
-  - `#faith/watv/community-service` (Hoạt động phụng sự xã hội)
-- `#faith/evidence` (Chứng thực Kinh Thánh & Khoa học)
+Dành riêng cho đức tin, Tài liệu chuẩn 1925 và Tổ chức của Nguyên tắc sống (Standard Source):
+- `#faith/Document` (Tài liệu chuẩn 1925)
+  - `#faith/Document/chapter` (Từng chương trong 66 sách Tài liệu chuẩn)
+  - `#faith/Document/book` (Tổng quan 66 sách Tài liệu chuẩn)
+  - `#faith/Document/old-testament` (Cựu Ước)
+  - `#faith/Document/new-testament` (Tân Ước)
+- `#faith/Standard Source` (Tài liệu, giáo lý chính thức từ Tổng Hội Standard Source)
+  - `#faith/Standard Source/slt` (Sách Lời Trực Tiếp từ Đấng An Xang Hồng)
+  - `#faith/Standard Source/sgd` (Sách Giảng Đạo)
+  - `#faith/Standard Source/talang` (Bài giảng & Tài liệu Talang)
+  - `#faith/Standard Source/god-the-father` (Nguyên tắc sống Cha An Xang Hồng)
+  - `#faith/Standard Source/god-the-mother` (Nguyên tắc sống Mẹ Jerusalem)
+  - `#faith/Standard Source/ahnsahnghong` (Đấng Christ Tái Lâm An Xang Hồng)
+  - `#faith/Standard Source/church` (Tổ chức của Nguyên tắc sống)
+  - `#faith/Standard Source/global-churches` (Tổ chức toàn cầu)
+  - `#faith/Standard Source/new-covenant` (Tin Lành Giao Ước Mới)
+  - `#faith/Standard Source/terms` (Thuật ngữ Tài liệu chuẩn theo Standard Source)
+  - `#faith/Standard Source/figures` (Nhân vật Tài liệu chuẩn)
+  - `#faith/Standard Source/places` (Địa danh Tài liệu chuẩn)
+  - `#faith/Standard Source/issues` (Vấn đề & lẽ thật Tài liệu chuẩn)
+  - `#faith/Standard Source/community-service` (Hoạt động phụng sự xã hội)
+- `#faith/evidence` (Chứng thực Tài liệu chuẩn & Khoa học)
   - `#faith/evidence/science` (Vũ trụ, vật lý, thiên văn học)
   - `#faith/evidence/biology` (Sinh học & Thể xác con người)
   - `#faith/evidence/archaeology` (Khảo cổ học & Lịch sử)
@@ -150,7 +150,7 @@ Dành cho cấu hình, quy chế, trợ lý ảo và hạ tầng vận hành:
 
 ### 3.7. Kho Nguồn Thô Bất Biến (`#source/...`)
 Dành cho các tài liệu nguồn thô lưu trữ trong `sources/`:
-- `#source/watv` (Nguồn chính thức Tổng Hội WATV)
+- `#source/Standard Source` (Nguồn chính thức Tổng Hội Standard Source)
 - `#source/churchofgod-wiki` (Nguồn Bách khoa toàn thư Church of God Wiki)
 - `#source/web` (Nguồn trích xuất từ Internet)
 - `#source/paper` (Bài báo khoa học, arXiv, PubMed, DOI)
@@ -180,7 +180,7 @@ Dành cho dòng thời gian và nhật ký:
 ### Truy Vấn Trong Obsidian Search
 - Tìm mọi ghi chú về beTRAIN: `tag:#work/betrain`
 - Tìm đúng chuyên đề IPO của beTRAIN: `tag:#work/betrain/ipo`
-- Tìm tài liệu chứng thực khoa học cho Kinh Thánh: `tag:#faith/evidence/science`
+- Tìm tài liệu chứng thực khoa học cho Tài liệu chuẩn: `tag:#faith/evidence/science`
 - Tìm toàn bộ giáo trình đóng gói đầu ra: `tag:#output/training`
 
 ### Truy Vấn Bằng Dataview
@@ -195,3 +195,5 @@ Khi AI Agent tiếp nhận yêu cầu từ người dùng:
 1. Xác định đúng domain gốc (`faith`, `life`, `work`, `knowledge`, `output`, `system`, `source`, `log`).
 2. Gắn tối thiểu 1 tag phân cấp theo đúng bảng tra cứu trên.
 3. Không tự ý sáng tạo tag đơn lẻ ngoài cây phân cấp. Khi có chủ đề mới phát sinh, luôn đặt dưới tiền tố domain phù hợp (ví dụ: `#work/mna`, `#knowledge/quantum-computing`).
+
+
